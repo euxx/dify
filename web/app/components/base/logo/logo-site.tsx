@@ -24,7 +24,7 @@ const LogoSite: FC<LogoSiteProps> = ({
         className={classNames('block w-auto h-10', className)}
         alt='logo'
       />
-      <span className='ml-2 text-lg'></span>
+      <span className='ml-2 text-lg'>西南油气田知识问答工作流平台</span>
     </div>
   )
 }
