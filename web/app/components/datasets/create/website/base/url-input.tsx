@@ -32,7 +32,6 @@ const UrlInput: FC<Props> = ({
       <Input
         value={url}
         onChange={handleUrlChange}
-        placeholder='https://docs.dify.ai'
       />
       <Button
         variant='primary'

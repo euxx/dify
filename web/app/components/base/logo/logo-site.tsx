@@ -18,11 +18,14 @@ const LogoSite: FC<LogoSiteProps> = ({
 
   const src = theme === 'light' ? '/logo/logo-site.png' : `/logo/logo-site-${theme}.png`
   return (
-    <img
-      src={src}
-      className={classNames('block w-auto h-10', className)}
-      alt='logo'
-    />
+    <div className={classNames('flex items-center', className)}>
+      <img
+        src={src}
+        className={classNames('block w-auto h-10', className)}
+        alt='logo'
+      />
+      <span className='ml-2 text-lg'></span>
+    </div>
   )
 }
 

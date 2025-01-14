@@ -4,148 +4,148 @@
       "value": "en-US",
       "name": "English (United States)",
       "prompt_name": "English",
-      "example": "Hello, Dify!",
+      "example": "Hello, AI Mate!",
       "supported": true
     },
     {
       "value": "zh-Hans",
       "name": "简体中文",
       "prompt_name": "Chinese Simplified",
-      "example": "你好，Dify！",
+      "example": "你好，AI Mate！",
       "supported": true
     },
     {
       "value": "zh-Hant",
       "name": "繁體中文",
       "prompt_name": "Chinese Traditional",
-      "example": "你好，Dify！",
+      "example": "你好，AI Mate！",
       "supported": true
     },
     {
       "value": "pt-BR",
       "name": "Português (Brasil)",
       "prompt_name": "Portuguese",
-      "example": "Olá, Dify!",
-      "supported": true
+      "example": "Olá, AI Mate!",
+      "supported": false
     },
     {
       "value": "es-ES",
       "name": "Español (España)",
       "prompt_name": "Spanish",
-      "example": "Saluton, Dify!",
-      "supported": true
+      "example": "Saluton, AI Mate!",
+      "supported": false
     },
     {
       "value": "fr-FR",
       "name": "Français (France)",
       "prompt_name": "French",
-      "example": "Bonjour, Dify!",
-      "supported": true
+      "example": "Bonjour, AI Mate!",
+      "supported": false
     },
     {
       "value": "de-DE",
       "name": "Deutsch (Deutschland)",
       "prompt_name": "German",
-      "example": "Hallo, Dify!",
-      "supported": true
+      "example": "Hallo, AI Mate!",
+      "supported": false
     },
     {
       "value": "ja-JP",
       "name": "日本語 (日本)",
       "prompt_name": "Japanese",
-      "example": "こんにちは、Dify!",
+      "example": "こんにちは、AI Mate!",
       "supported": true
     },
     {
       "value": "ko-KR",
       "name": "한국어 (대한민국)",
       "prompt_name": "Korean",
-      "example": "안녕하세요, Dify!",
+      "example": "안녕하세요, AI Mate!",
       "supported": true
     },
     {
       "value": "ru-RU",
       "name": "Русский (Россия)",
       "prompt_name": "Russian",
-      "example": " Привет, Dify!",
-      "supported": true
+      "example": " Привет, AI Mate!",
+      "supported": false
     },
     {
       "value": "it-IT",
       "name": "Italiano (Italia)",
       "prompt_name": "Italian",
-      "example": "Ciao, Dify!",
-      "supported": true
+      "example": "Ciao, AI Mate!",
+      "supported": false
     },
     {
       "value": "th-TH",
       "name": "ไทย (ประเทศไทย)",
       "prompt_name": "Thai",
-      "example": "สวัสดี Dify!",
-      "supported": true
+      "example": "สวัสดี AI Mate!",
+      "supported": false
     },
     {
       "value": "id-ID",
       "name": "Bahasa Indonesia",
       "prompt_name": "Indonesian",
-      "example": "Saluto, Dify!",
+      "example": "Saluto, AI Mate!",
       "supported": false
     },
     {
       "value": "uk-UA",
       "name": "Українська (Україна)",
       "prompt_name": "Ukrainian",
-      "example": "Привет, Dify!",
-      "supported": true
+      "example": "Привет, AI Mate!",
+      "supported": false
     },
     {
       "value": "vi-VN",
       "name": "Tiếng Việt (Việt Nam)",
       "prompt_name": "Vietnamese",
-      "example": "Xin chào, Dify!",
-      "supported": true
+      "example": "Xin chào, AI Mate!",
+      "supported": false
     },
     {
       "value": "ro-RO",
       "name": "Română (România)",
       "prompt_name": "Romanian",
-      "example": "Salut, Dify!",
-      "supported": true
+      "example": "Salut, AI Mate!",
+      "supported": false
     },
     {
       "value": "pl-PL",
       "name": "Polski (Polish)",
       "prompt_name": "Polish",
-      "example": "Cześć, Dify!",
-      "supported": true
+      "example": "Cześć, AI Mate!",
+      "supported": false
     },
     {
       "value": "hi-IN",
       "name": "Hindi (India)",
       "prompt_name": "Hindi",
-      "example": "नमस्ते, Dify!",
-      "supported": "true"
+      "example": "नमस्ते, AI Mate!",
+      "supported": false
     },
     {
       "value": "tr-TR",
       "name": "Türkçe",
       "prompt_name": "Türkçe",
-      "example": "Selam!",
-      "supported": "true"
+      "example": "Selam, AI Mate!",
+      "supported": false
     },
     {
       "value": "fa-IR",
       "name": "Farsi (Iran)",
       "prompt_name": "Farsi",
       "example": "سلام, دیفای!",
-      "supported": true
+      "supported": false
     },
     {
       "value": "sl-SI",
       "name": "Slovensko (Slovenija)",
       "prompt_name": "Slovensko",
-      "example": "Zdravo, Dify!",
-      "supported": true
+      "example": "Zdravo, AI Mate!",
+      "supported": false
     }
   ]
 }

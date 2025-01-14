@@ -122,18 +122,6 @@ const ExtraInfo = ({ isMobile, relatedApps, expand }: IExtraInfoProps) => {
               <RiApps2AddLine className='h-4 w-4 text-text-tertiary' />
             </div>
             <div className='text-xs text-text-tertiary my-2'>{t('common.datasetMenus.emptyTip')}</div>
-            <a
-              className='inline-flex items-center text-xs text-text-accent mt-2 cursor-pointer'
-              href={
-                locale === LanguagesSupported[1]
-                  ? 'https://docs.dify.ai/v/zh-hans/guides/knowledge-base/integrate-knowledge-within-application'
-                  : 'https://docs.dify.ai/guides/knowledge-base/integrate-knowledge-within-application'
-              }
-              target='_blank' rel='noopener noreferrer'
-            >
-              <BookOpenIcon className='mr-1' />
-              {t('common.datasetMenus.viewDoc')}
-            </a>
           </div>
         }
       >
@@ -189,7 +177,7 @@ const DatasetDetailLayout: FC<IAppDetailLayoutProps> = (props) => {
 
   useEffect(() => {
     if (datasetRes)
-      document.title = `${datasetRes.name || 'Dataset'} - Dify`
+      document.title = `${datasetRes.name || 'Dataset'} - AI Mate`
   }, [datasetRes])
 
   const setAppSiderbarExpand = useStore(state => state.setAppSiderbarExpand)
@@ -207,7 +195,7 @@ const DatasetDetailLayout: FC<IAppDetailLayoutProps> = (props) => {
     <div className='grow flex overflow-hidden'>
       {!hideSideBar && <AppSideBar
         title={datasetRes?.name || '--'}
-        icon={datasetRes?.icon || 'https://static.dify.ai/images/dataset-default-icon.png'}
+        icon={datasetRes?.icon}
         icon_background={datasetRes?.icon_background || '#F5F5F5'}
         desc={datasetRes?.description || '--'}
         isExternal={datasetRes?.provider === 'external'}

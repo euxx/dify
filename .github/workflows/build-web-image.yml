@@ -1,0 +1,54 @@
+name: Build and Push WEB Image
+
+on:
+  workflow_dispatch:
+
+env:
+  # 仓库地址
+  REGISTRY: registry.cn-chengdu.aliyuncs.com
+  IMAGE_NAME: tavan-ai/dify-web
+  IMAGE_TAG: latest
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # - uses: aliyun/acr-login@v1
+      #   with:
+      #     login-server: ${{ env.REGISTRY }}
+      #     # region-id: 'cn-chengdu' # example: cn-hangzhou
+      #     username: ${{ secrets.USERMAME }}
+      #     password: ${{ secrets.PASSWORD }}
+
+      - name: Git Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Login to ACR
+        uses: aliyun/acr-login@v1
+        with:
+          login-server: https://registry.cn-chengdu.aliyuncs.com
+          username: "${{ secrets.USERMAME }}"
+          password: "${{ secrets.PASSWORD }}"
+
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: ./web
+          push: true
+          tags: ${{env.REGISTRY}}/${{env.IMAGE_NAME}}:${{github.run_number}}
+          file: web/Dockerfile
+        # run: |
+        #   docker version
+        #   # 登录阿里云镜像仓库
+        #   docker login --username=${{secrets.USERMAME}} --password=${{secrets.PASSWORD}} ${{env.REGISTRY}}
+        #   # 使用Dockerfile构建镜像  ${{env.IMAGE_TAG}}.${{github.run_id}}.${{github.run_number}}
+        #   docker build . -t --tag ${{env.REGISTRY}}/${{env.IMAGE_NAME}}:${{env.IMAGE_TAG}} --tag ${{env.REGISTRY}}/${{env.IMAGE_NAME}}:${{github.run_number}}
+        #   # 推送镜像到镜像仓库
+        #   docker push ${{env.REGISTRY}}/${{env.IMAGE_NAME}}:${{env.IMAGE_TAG}}
+        #   docker push ${{env.REGISTRY}}/${{env.IMAGE_NAME}}:${{github.run_number}}

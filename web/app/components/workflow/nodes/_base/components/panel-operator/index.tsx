@@ -32,7 +32,7 @@ const PanelOperator = ({
   },
   onOpenChange,
   inNode,
-  showHelpLink = true,
+  showHelpLink = false,
 }: PanelOperatorProps) => {
   const [open, setOpen] = useState(false)
 

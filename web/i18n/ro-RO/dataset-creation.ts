@@ -64,7 +64,7 @@ const translation = {
       firecrawlTitle: 'Extrageți conținut web cu 🔥Firecrawl',
       unknownError: 'Eroare necunoscută',
       scrapTimeInfo: 'Pagini răzuite {{total}} în total în {{timp}}s',
-      firecrawlDocLink: 'https://docs.dify.ai/guides/knowledge-base/sync-from-website',
+      firecrawlDocLink: 'https://localhost/guides/knowledge-base/sync-from-website',
       excludePaths: 'Excluderea căilor',
       resetAll: 'Resetați toate',
       extractOnlyMainContent: 'Extrageți doar conținutul principal (fără anteturi, navigări, subsoluri etc.)',
@@ -196,7 +196,7 @@ const translation = {
   },
   otherDataSource: {
     title: 'Conectați-vă la alte surse de date?',
-    description: 'În prezent, baza de cunoștințe a Dify are doar surse de date limitate. Contribuția cu o sursă de date la baza de cunoștințe Dify este o modalitate fantastică de a ajuta la îmbunătățirea flexibilității și puterii platformei pentru toți utilizatorii. Ghidul nostru de contribuție vă ajută să începeți. Vă rugăm să faceți clic pe linkul de mai jos pentru a afla mai multe.',
+    description: 'În prezent, baza de cunoștințe a AI Mate are doar surse de date limitate. Contribuția cu o sursă de date la baza de cunoștințe AI Mate este o modalitate fantastică de a ajuta la îmbunătățirea flexibilității și puterii platformei pentru toți utilizatorii. Ghidul nostru de contribuție vă ajută să începeți. Vă rugăm să faceți clic pe linkul de mai jos pentru a afla mai multe.',
     learnMore: 'Află mai multe',
   },
 }

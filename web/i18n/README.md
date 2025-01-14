@@ -80,7 +80,7 @@ export const languages = [
   {
     value: 'en-US',
     name: 'English(United States)',
-    example: 'Hello, Dify!',
+    example: 'Hello, AI Mate!',
     supported: true,
   },
   {
@@ -92,25 +92,25 @@ export const languages = [
   {
     value: 'pt-BR',
     name: 'Português(Brasil)',
-    example: 'Olá, Dify!',
+    example: 'Olá, AI Mate!',
     supported: true,
   },
   {
     value: 'es-ES',
     name: 'Español(España)',
-    example: 'Saluton, Dify!',
+    example: 'Saluton, AI Mate!',
     supported: false,
   },
   {
     value: 'fr-FR',
     name: 'Français(France)',
-    example: 'Bonjour, Dify!',
+    example: 'Bonjour, AI Mate!',
     supported: false,
   },
   {
     value: 'de-DE',
     name: 'Deutsch(Deutschland)',
-    example: 'Hallo, Dify!',
+    example: 'Hallo, AI Mate!',
     supported: false,
   },
   {
@@ -122,37 +122,37 @@ export const languages = [
   {
     value: 'ko-KR',
     name: '한국어(대한민국)',
-    example: '안녕, Dify!',
+    example: '안녕, AI Mate!',
     supported: true,
   },
   {
     value: 'ru-RU',
     name: 'Русский(Россия)',
-    example: ' Привет, Dify!',
+    example: ' Привет, AI Mate!',
     supported: false,
   },
   {
     value: 'it-IT',
     name: 'Italiano(Italia)',
-    example: 'Ciao, Dify!',
+    example: 'Ciao, AI Mate!',
     supported: false,
   },
   {
     value: 'th-TH',
     name: 'ไทย(ประเทศไทย)',
-    example: 'สวัสดี Dify!',
+    example: 'สวัสดี AI Mate!',
     supported: false,
   },
   {
     value: 'id-ID',
     name: 'Bahasa Indonesia',
-    example: 'Saluto, Dify!',
+    example: 'Saluto, AI Mate!',
     supported: false,
   },
   {
     value: 'uk-UA',
     name: 'Українська(Україна)',
-    example: 'Привет, Dify!',
+    example: 'Привет, AI Mate!',
     supported: true,
   },
   // Add your language here 👇
@@ -164,7 +164,7 @@ export const languages = [
 5. Don't forget to mark the supported field as `true` if the language is supported.
 
 6. Sometime you might need to do some changes in the server side. Please change this file as well. 👇
-https://github.com/langgenius/dify/blob/61e4bbabaf2758354db4073cbea09fdd21a5bec1/api/constants/languages.py#L5
+https://github.com/langgenius/AI Mate/blob/61e4bbabaf2758354db4073cbea09fdd21a5bec1/api/constants/languages.py#L5
 
 
 

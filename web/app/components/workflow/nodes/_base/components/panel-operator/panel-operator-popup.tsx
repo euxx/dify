@@ -33,7 +33,7 @@ const PanelOperatorPopup = ({
   id,
   data,
   onClosePopup,
-  showHelpLink,
+  showHelpLink = false,
 }: PanelOperatorPopupProps) => {
   const { t } = useTranslation()
   const language = useGetLanguage()
@@ -184,9 +184,6 @@ const PanelOperatorPopup = ({
             {t('workflow.panel.about').toLocaleUpperCase()}
           </div>
           <div className='mb-1 text-gray-700 leading-[18px]'>{about}</div>
-          <div className='leading-[18px]'>
-            {t('workflow.panel.createdBy')} {author}
-          </div>
         </div>
       </div>
     </div>

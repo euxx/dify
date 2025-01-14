@@ -1,7 +1,6 @@
 'use client'
 import React, { useEffect, useReducer } from 'react'
 import { useTranslation } from 'react-i18next'
-import Link from 'next/link'
 import useSWR from 'swr'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Input from '../components/base/input'
@@ -150,15 +149,6 @@ const OneMoreStep = () => {
             >
               {t('login.go')}
             </Button>
-          </div>
-          <div className="block w-full mt-2 system-xs-regular text-text-tertiary">
-            {t('login.license.tip')}
-            &nbsp;
-            <Link
-              className='system-xs-medium text-text-accent-secondary'
-              target='_blank' rel='noopener noreferrer'
-              href={'https://docs.dify.ai/user-agreement/open-source'}
-            >{t('login.license.link')}</Link>
           </div>
         </div>
       </div>

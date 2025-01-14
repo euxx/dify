@@ -62,7 +62,7 @@ const translation = {
       run: 'Çalıştır',
       firecrawlTitle: '🔥Firecrawl ile web içeriğini çıkarın',
       firecrawlDoc: 'Firecrawl dokümanları',
-      firecrawlDocLink: 'https://docs.dify.ai/guides/knowledge-base/sync-from-website',
+      firecrawlDocLink: 'https://localhost/guides/knowledge-base/sync-from-website',
       options: 'Seçenekler',
       crawlSubPage: 'Alt sayfaları tarayın',
       limit: 'Sınır',
@@ -196,7 +196,7 @@ const translation = {
   },
   otherDataSource: {
     learnMore: 'Daha fazla bilgi edinin',
-    description: 'Şu anda, Dify\'ın bilgi tabanı yalnızca sınırlı veri kaynaklarına sahiptir. Dify bilgi tabanına bir veri kaynağına katkıda bulunmak, tüm kullanıcılar için platformun esnekliğini ve gücünü artırmaya yardımcı olmanın harika bir yoludur. Katkı kılavuzumuz, başlamanızı kolaylaştırır. Daha fazla bilgi edinmek için lütfen aşağıdaki bağlantıya tıklayın.',
+    description: 'Şu anda, AI Mate\'ın bilgi tabanı yalnızca sınırlı veri kaynaklarına sahiptir. AI Mate bilgi tabanına bir veri kaynağına katkıda bulunmak, tüm kullanıcılar için platformun esnekliğini ve gücünü artırmaya yardımcı olmanın harika bir yoludur. Katkı kılavuzumuz, başlamanızı kolaylaştırır. Daha fazla bilgi edinmek için lütfen aşağıdaki bağlantıya tıklayın.',
     title: 'Diğer veri kaynaklarına bağlanılıyor mu?',
   },
 }

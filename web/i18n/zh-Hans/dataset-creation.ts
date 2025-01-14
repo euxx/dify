@@ -71,7 +71,7 @@ const translation = {
       run: '运行',
       firecrawlTitle: '使用 🔥Firecrawl 提取网页内容',
       firecrawlDoc: 'Firecrawl 文档',
-      firecrawlDocLink: 'https://docs.dify.ai/v/zh-hans/guides/knowledge-base/sync-from-website',
+      firecrawlDocLink: 'https://localhost/v/zh-hans/guides/knowledge-base/sync-from-website',
       jinaReaderTitle: '将整个站点内容转换为 Markdown 格式',
       jinaReaderDoc: '了解更多关于 Jina Reader',
       jinaReaderDocLink: 'https://jina.ai/reader',
@@ -196,7 +196,7 @@ const translation = {
   },
   otherDataSource: {
     title: '连接到其他数据源？',
-    description: '目前，Dify 的知识库只有有限的数据源。向 Dify 知识库贡献数据源是帮助所有用户增强平台灵活性和强大功能的绝佳方式。我们的贡献指南使入门变得容易。请点击下面的链接了解更多信息。',
+    description: '目前，AI Mate 的知识库只有有限的数据源。向 AI Mate 知识库贡献数据源是帮助所有用户增强平台灵活性和强大功能的绝佳方式。我们的贡献指南使入门变得容易。请点击下面的链接了解更多信息。',
     learnMore: '了解更多信息',
   },
 }
