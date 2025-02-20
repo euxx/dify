@@ -6,8 +6,6 @@ import { usePathname, useRouter } from 'next/navigation'
 import {
   RiDashboard2Fill,
   RiDashboard2Line,
-  RiFileList3Fill,
-  RiFileList3Line,
   RiTerminalBoxFill,
   RiTerminalBoxLine,
   RiTerminalWindowFill,
@@ -75,17 +73,17 @@ const AppDetailLayout: FC<IAppDetailLayoutProps> = (props) => {
         icon: RiTerminalBoxLine,
         selectedIcon: RiTerminalBoxFill,
       },
-      ...(isCurrentWorkspaceEditor
-        ? [{
-          name: mode !== 'workflow'
-            ? t('common.appMenus.logAndAnn')
-            : t('common.appMenus.logs'),
-          href: `/app/${appId}/logs`,
-          icon: RiFileList3Line,
-          selectedIcon: RiFileList3Fill,
-        }]
-        : []
-      ),
+      // ...(isCurrentWorkspaceEditor
+      //   ? [{
+      //     name: mode !== 'workflow'
+      //       ? t('common.appMenus.logAndAnn')
+      //       : t('common.appMenus.logs'),
+      //     href: `/app/${appId}/logs`,
+      //     icon: RiFileList3Line,
+      //     selectedIcon: RiFileList3Fill,
+      //   }]
+      //   : []
+      // ),
       {
         name: t('common.appMenus.overview'),
         href: `/app/${appId}/overview`,
