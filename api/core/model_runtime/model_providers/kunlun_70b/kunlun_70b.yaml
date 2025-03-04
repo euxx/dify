@@ -1,0 +1,79 @@
+provider: kunlun_70b
+label:
+   en_US: 昆仑大模型 70B
+description:
+   en_US: Petro China Kunlun 70B
+   zh_Hans: 中国石油昆仑大模型 70B
+supported_model_types:
+   - llm
+configurate_methods:
+   - customizable-model
+model_credential_schema:
+   model:
+     label:
+       en_US: Model Name
+       zh_Hans: 模型名称
+     placeholder:
+       en_US: Enter full model name
+       zh_Hans: 输入模型全称
+   credential_form_schemas:
+     - variable: app_code
+       label:
+         en_US: APP Code
+       type: secret-input
+       required: true
+       placeholder:
+         zh_Hans: 在此输入您的 APP Code
+         en_US: Enter your APP Code
+     - variable: endpoint_url
+       label:
+         zh_Hans: API endpoint URL
+         en_US: API endpoint URL
+       type: text-input
+       required: true
+       placeholder:
+         zh_Hans: Base URL, e.g. ws://api.kunlun.com/kunlun
+         en_US: Base URL, e.g. ws://api.kunlun.com/kunlun
+     - variable: mode
+       show_on:
+         - variable: __model_type
+           value: llm
+       label:
+         en_US: Completion mode
+       type: select
+       required: false
+       default: chat
+       placeholder:
+         zh_Hans: 选择对话类型
+         en_US: Select completion mode
+       options:
+         - value: completion
+           label:
+             en_US: Completion
+             zh_Hans: 补全
+         - value: chat
+           label:
+             en_US: Chat
+             zh_Hans: 对话
+     - variable: context_size
+       label:
+         zh_Hans: 模型上下文长度
+         en_US: Model context size
+       required: true
+       show_on:
+         - variable: __model_type
+           value: llm
+       type: text-input
+       default: '8192'
+       placeholder:
+         zh_Hans: 在此输入您的模型上下文长度
+         en_US: Enter your Model context size
+     - variable: max_tokens_to_sample
+       label:
+         zh_Hans: 最大 token 上限
+         en_US: Upper bound for max tokens
+       show_on:
+         - variable: __model_type
+           value: llm
+       default: '4096'
+       type: text-input
