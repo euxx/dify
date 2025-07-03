@@ -42,4 +42,5 @@ def get_parameters_from_feature_dict(
             "file_size_limit": dify_config.UPLOAD_FILE_SIZE_LIMIT,
             "workflow_file_upload_limit": dify_config.WORKFLOW_FILE_UPLOAD_LIMIT,
         },
+        "dataset_configs": features_dict.get("dataset_configs", {}),
     }

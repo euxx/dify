@@ -23,6 +23,7 @@ parameters_fields = {
     "sensitive_word_avoidance": fields.Raw,
     "file_upload": fields.Raw,
     "system_parameters": fields.Nested(parameters__system_parameters),
+    "dataset_configs": fields.Raw,
 }
 
 site_fields = {
